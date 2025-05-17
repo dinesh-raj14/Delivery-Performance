@@ -5,3 +5,18 @@ Import Datasets from files into Power Query Editor.
 
 Data cleaning.
 
+Dax expressions.
+
+creating measure table avg customer rating,  Avg customer Rating = 
+AVERAGE(
+Shipments[Customer_rating]
+).
+
+creating delayed shipments , DelayedShipments = 
+CALCULATE(
+    COUNTROWS(Shipments),
+    Shipments[Reached.on.Time_Y.N] = 1
+).
+
+creating total shipments, Total Shipments = COUNT(Shipments[ID]).
+
