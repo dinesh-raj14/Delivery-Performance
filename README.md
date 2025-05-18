@@ -20,3 +20,16 @@ CALCULATE(
 
 creating total shipments, Total Shipments = COUNT(Shipments[ID]).
 
+# Data Visualisation.
+
+Creating a stacked bar chart for Total shipments by Mode of Transport.
+
+creating a card for Total shipments.
+
+Creating stacked column chart for Delivery Performance by Warehouses.
+
+Creating Gauge chart for Avg customer Rating.
+
+Creating a Decomposition Tree for detailed analysis of Delayed shipments.
+
+
